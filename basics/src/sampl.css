@@ -1,0 +1,23 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    height: 100vh; /* Takes full viewport height */
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    font-style: italic;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+button, h3 {
+    display: inline-flex;
+}

@@ -1,0 +1,16 @@
+.heart-container {
+    font-size: 50px;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    color: white; /* Initially, the heart is white */
+    -webkit-text-stroke: 2px white; /* White outline for the heart */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .heart-container.liked {
+    color: red; /* Fill heart with red when liked */
+    background-color: lightcoral; /* Square background color when clicked */
+    -webkit-text-stroke: 2px white; /* Keep the white outline */
+  }
+  
